@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+:root{ 
+    --color-White:hsl(30, 54%, 90%);
+    --color-coffe-milk: hsl(46, 38%, 41%);
+    --color-chocolate: hsl(46, 93%, 11%);
+     --color-coffe: hsl(49, 32%, 30%);
+    --color-pink:rgb(168, 114, 123);
+
+    --font-size: 25px;
+    --font-size-button: 25px;
+    --font-size-name: 60px;
+    --font-family:Playfair DisplaY;
+    }
+
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+   }
+
+body{
+    font-family: var(--font-family);
+    font-size: var(--font-size);
+    width: 100vw;
+    height: auto;
+    min-height: 100vh;
+    background-color: var(--color-White);
+}
+
+h1{  
+    font-family: var(--font-family);
+    color: var(--color-White);
+   
+}
+#card { 
+    width: 500px;
+    height:fit-content;
+    margin: 100px auto;
+    background-color:var(--color-coffe);
+    text-align: center;
+    
+    border-radius: 25Px;
+    padding-bottom: 35px;
+    padding-left: 100px;
+    padding-right: 100px;
+
+ 
+    }
+
+#card > img{
+width: 90%;
+height:auto;
+border-radius: 1000px;
+padding-bottom: 20px;
+}
+
+#card > button{
+
+    background-color: var(--color-chocolate);
+    padding-bottom: 20px;
+    padding-top: 20px;
+   margin: 30px auto;
+   width: 300px;
+    border-radius: 80px;
+    font-size: var(--font-size-button);
+    
+
+     }
+h1{
+    font-size: var(--font-size-name);
+color: var(--color-chocolate);
+    padding-top: 30px;
+    margin-bottom: 30px;
+    font-family: var(--font-family)
+   
+   
+   
+}
+h2{
+        margin-bottom: 20px;
+        color: var(--color-pink);
+        font-size:var(--font-size)
+   
+    }
+h3{
+    margin-bottom: 1px;  
+    font-size:var(--font-size);
+}
+button{
+    color:antiquewhite
+    }
+button{
+    font-size: var(--font-size-button);
+    font-family: var(--font-family);
+}

@@ -1,0 +1,96 @@
+
+:root{ 
+    --color-White:hsl(0, 0%, 100%);
+    --color-Grey: hsl(0, 0%, 20%);
+    --color-Dark-Grey: hsl(0, 0%, 12%);
+    --color-Off-Black: hsl(0, 0%, 8%);
+    --color-Green: hsl(75, 94%, 57%);
+    --font-size-paragraph: 14px;
+    
+    
+    }
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+   
+}
+
+body{
+    background-color: var(--color-Off-Black);
+    width :100vw;
+    height: auto;
+    min-height: 100vh;
+}
+
+#card {
+    width: 700px;
+    height:fit-content;
+    margin: 100px auto;
+
+    text-align: center;
+    background-color:var(--color-Dark-Grey);
+
+    padding-bottom: 200px;
+    padding-left: 100px;
+    padding-right: 100px;
+
+ 
+    }
+#card > img{
+width: 100%;
+height:auto;
+padding-bottom: 20px;
+border-radius: 50%;
+}
+
+#card > button{
+    
+    background-color: var(--color-Grey);
+    padding-bottom: 20px;
+    padding-top: 20px;
+    margin: 20px 50px 20px 50px;
+    width: 250px;
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+
+
+     }
+     a:link, a:visited {
+        color: white;
+        text-decoration: none;
+        display: inline-block;
+      }
+h1{
+    padding-top: 30px;
+    margin-bottom: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: var(--color-Dark-Grey);
+    font-size: 50px;
+    color: var(--color-Green);
+}
+h2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    margin-bottom: 30px;
+    background-color: var(--color-Dark-Grey);
+    color: bisque;
+}
+
+/*** # Front-end Style Guide
+
+The designs were created to the following widths:
+
+- Mobile: 375px
+- Desktop: 1440px
+
+> 💡 These are just the design sizes.
+ Ensure content is responsive and meets WCAG requirements by testing the full range of screen sizes from 320px to large screens.
+
+### Font
+
+- Family: [Inter](https://fonts.google.com/specimen/Inter)
+- Weights: 400, 600, 700
+
+💎
+***/
